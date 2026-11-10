@@ -1,0 +1,26 @@
+name: aDNA
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - bioconda::bwa
+  - bioconda::samtools
+  - bioconda::plink
+  - bioconda::qualimap
+  - fastqc
+  - bioconda::adapterremoval
+  - bioconda::kraken2
+  - bioconda::mapdamage2
+  - bioconda::mosdepth
+  - bioconda::bedtools
+  - bioconda::angsd
+  - bioconda::blast
+  - mafft
+  - bioconda::trimal
+  - bioconda::gatk
+  - bioconda::gatk4
+  - bioconda::bcftools
+  - openjdk
+  - fastp
+  - bioconda::pmdtools
+  - bioconda::minimap2
